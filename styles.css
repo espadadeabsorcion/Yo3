@@ -3,7 +3,7 @@ body{
     height: 100%;
     padding: 0%;
     margin: 0%;
-    background-color: red;
+    background-color: black;
     color: white;
 }
 main{
@@ -12,12 +12,12 @@ main{
     padding: 0;
     margin: 0;
     background-image: linear-gradient(black ,white);
-    color: rgb(31, 31, 206);
+    color: rgb(170, 73, 157);
     text-shadow: 
-    2px 2px 3px rgb(171, 46, 196),  
-    -2px -2px 3px rgb(180, 24, 211),  
-    2px -2px 3px rgb(180, 24, 211),  
-    -2px 2px 3px rgb(180, 24, 211);
+    1px 1px 3px rgb(171, 46, 196),  
+    -1px -1px 3px rgb(180, 24, 211),  
+    1px -1px 3px rgb(180, 24, 211),  
+    -1px 1px 3px rgb(180, 24, 211);
 }
 header{
     width: 100%;
@@ -34,6 +34,7 @@ footer{
     margin: 0;
     background-image: linear-gradient(white,black);
     text-align: center;
+    display: grid;
 }
 h1{
     width: 50%;
@@ -63,14 +64,26 @@ h1{
     font-size: 400%;
 }
 .menu{
-    background-color: rgb(31, 31, 206);
+    background-color: rgb(170, 73, 157);
     display: flex;
     text-align: center;
-    border-top: 5px;
-    border-bottom: 5px;
-    border-color: rgb(180, 24, 211);
+    border-top: 5px solid rgb(171, 46, 196);
+    border-bottom: 5px solid rgb(171, 46, 196);
+
 }
 .ftext{
     padding: 0;
     margin: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border: 3px solid rgb(171, 46, 196);
+    color: white;
+    background-color: rgb(128, 73, 170);
+}
+a{
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    height: 100%;
 }
