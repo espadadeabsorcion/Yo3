@@ -33,6 +33,7 @@ footer{
     padding: 0;
     margin: 0;
     background-image: linear-gradient(white,black);
+    text-align: center;
 }
 h1{
     width: 50%;
@@ -71,5 +72,5 @@ h1{
 .ftext{
     padding: 0;
     margin: 0;
-    text-align: center;
+
 }
