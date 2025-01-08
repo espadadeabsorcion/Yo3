@@ -68,3 +68,9 @@ h1{
     border-top: 5px;
     border-bottom: 5px;
 }
+.ftext{
+    width: 50%;
+    height: 50%;
+    padding: 10;
+    margin: 10;
+}
