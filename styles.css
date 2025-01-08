@@ -68,6 +68,7 @@ h1{
     text-align: center;
     border-top: 5px;
     border-bottom: 5px;
+    border-color: rgb(180, 24, 211);
 }
 .ftext{
     padding: 0;
