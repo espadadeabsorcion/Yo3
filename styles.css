@@ -11,7 +11,7 @@ main{
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(black ,white);
+    background-image: linear-gradient(black ,rgb(89, 89, 89));
     color: rgb(170, 73, 157);
     text-shadow: 
     1px 1px 3px rgb(171, 46, 196),  
@@ -24,7 +24,7 @@ header{
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(white ,black);
+    background-image: linear-gradient(rgb(89, 89, 89) ,black);
     text-align: center;
 }
 footer{
@@ -32,7 +32,7 @@ footer{
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(white,black);
+    background-image: linear-gradient(rgb(89, 89, 89),black);
     text-align: center;
     display: grid;
 }
